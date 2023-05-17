@@ -1,0 +1,8 @@
+
+services:
+  musicas:
+    build: .
+    image: musiquinhas
+    volumes:
+      - ./musicas:/app/musicas
+    tty: true
