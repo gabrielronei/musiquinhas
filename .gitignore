@@ -1,5 +1,6 @@
 node_modules/
 musicas/*.mp3
+musicas/lista.txt
 package-lock.json
 
 .DS_Store/

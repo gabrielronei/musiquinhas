@@ -6,7 +6,7 @@ import ffmpegPath from '@ffmpeg-installer/ffmpeg';
 
 ffmpeg.setFfmpegPath(ffmpegPath.path);
 
-const fileContent = fs.readFileSync("./musicas/musicas.txt", { encoding: 'utf-8' });
+const fileContent = fs.readFileSync("./musicas/lista.txt", { encoding: 'utf-8' });
 const links = fileContent.trim().split(/\n/).filter(text => text !== '');
 const multibar = new cliProgress.MultiBar({
     stopOnComplete: true,

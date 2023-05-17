@@ -4,7 +4,7 @@
   "type": "module",
   "license": "ISC",
   "scripts": {
-    "start": "node index.js"
+    "start": "node src/index.js"
   },
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
