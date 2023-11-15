@@ -1,4 +1,4 @@
-import ytdl from 'ytdl-core';
+import ytdl from '@distube/ytdl-core';
 import fs from "fs";
 import ffmpeg from 'fluent-ffmpeg';
 import cliProgress from 'cli-progress';

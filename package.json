@@ -7,12 +7,12 @@
     "start": "node src/index.js"
   },
   "dependencies": {
+    "@distube/ytdl-core": "^4.13.2",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "bash": "^0.0.1",
     "cli-progress": "^3.11.2",
     "fluent-ffmpeg": "^2.1.2",
     "npm": "^9.5.0",
-    "start": "^5.1.0",
-    "ytdl-core": "^4.11.2"
+    "start": "^5.1.0"
   }
 }
